@@ -1,6 +1,6 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import { Footer } from "./Footer";
+import { Navbar } from "./Navbar";
 //PascalCase or CamelCase
 function App() {
   return (
@@ -14,11 +14,6 @@ function App() {
       <Footer />
     </>
   );
-  // const html = "scriv koden här";
-  // return html;
 }
 
-// const App =() => {
-//   return <div>This is the app component</div>
-// };
 export default App;

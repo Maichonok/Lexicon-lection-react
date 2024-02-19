@@ -1,5 +1,5 @@
-function Footer() {
-  return <footer>This is the footer</footer>;
-}
+import "./Footer.css";
 
-export default Footer;
+export function Footer() {
+  return <footer className="footer"><a>This is a footer</a></footer>;
+}
