@@ -1,5 +1,6 @@
 import "./App.css";
-import Navbar from "./Navbar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 //PascalCase or CamelCase
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>This is the content of my app</p>
         <section>This is a section</section>
       </div>
+      <Footer />
     </>
   );
   // const html = "scriv koden här";
